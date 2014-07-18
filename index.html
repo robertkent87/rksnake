@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=0"/>
+        <title>Snake</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body class="container">
+        <div class="canvas-container">
+            <p>Use the arrow keys to control the snake</p>
+
+            <canvas id="jsSnake"></canvas>
+
+            <div id="controls">
+                <button class="control" id="up">Up</button>
+                <button class="control" id="left">Left</button>
+                <button class="control" id="right">Right</button>
+                <button class="control" id="down">Down</button>
+            </div>
+        </div>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+        <script src="buzz.js"></script>
+        <script src="game.js"></script>
+        <script>
+            $(window).on('load', function (){
+                JS_SNAKE.game.init();
+            });
+        </script>
+    </body>
+</html>
