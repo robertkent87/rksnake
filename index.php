@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=0"/>
         <title>Snake</title>
-        <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"/>
         <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="style.css"/>
     </head>
@@ -42,9 +42,9 @@
         <?php
 
         $host = 'localhost';
-        $dbname = 'robert_test';
-        $user = 'snake_game';
-        $pass = 'bS4JqAApZCmjdCGP';
+        $dbname = 'snake';
+        $user = 'snake';
+        $pass = 'WRevyZmsrBTTyQZn';
 
         try {
             $dbh = new PDO('mysql:host=' . $host . ';dbname=' . $dbname, $user, $pass);
