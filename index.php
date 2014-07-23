@@ -42,8 +42,8 @@
         <?php
 
         $host = 'localhost';
-        $dbname = 'snake';
-        $user = 'snake';
+        $dbname = 'rk87_snake';
+        $user = 'rk87_snake';
         $pass = 'WRevyZmsrBTTyQZn';
 
         try {
