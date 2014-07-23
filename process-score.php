@@ -16,9 +16,9 @@ $date = date('Y-m-d H:i:s');
 
 // Enter score into database
 $host = 'localhost';
-$dbname = 'robert_test';
-$user = 'snake_game';
-$pass = 'bS4JqAApZCmjdCGP';
+$dbname = 'rk87_snake';
+$user = 'rk87_snake';
+$pass = 'WRevyZmsrBTTyQZn';
 
 try {
     $dbh = new PDO('mysql:host=' . $host . ';dbname=' . $dbname, $user, $pass);
